@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Barakat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { display: grid; place-items: center; min-height: 100vh; padding: 24px; text-align: center; }
+    .err-code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: clamp(80px, 18vw, 180px);
+      line-height: 1; margin: 0;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="err-code">404</p>
+    <h1>Page not found</h1>
+    <p style="color: var(--text-dim); max-width: 420px; margin: 0 auto 32px;">
+      Looks like this route never made it through the pipeline. Let's get you back.
+    </p>
+    <a href="/" class="btn btn-primary">← Back home</a>
+  </main>
+</body>
+</html>
